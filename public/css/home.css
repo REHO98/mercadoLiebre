@@ -1,0 +1,110 @@
+.home__header {
+    background-color: var(--colorAmarillo);
+    padding: 20px;
+    font-family: var(--tipografiaGeneral);
+}
+
+.home__header__img--logo{
+    width: 60%;
+}
+
+.home__header__input--search-bar{
+    width: 80%;
+}
+
+
+.home__header__div--anuncio{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home__header__div--burger-menu{
+    background-color: var(--colorAzul);
+    color: #ffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.home__header__nav--nav-bar{
+    font-size: 12px;
+    color: black;
+}
+
+.home__header__nav--login-bar{
+    font-size: 12px;
+    color: black;
+}
+
+/* .home__main{
+
+} */
+
+/* .home__main__section--ultima-visita{
+
+}
+ */
+/* .home__main__div--cafetera{
+
+} */
+
+/* .home__main__div--macbook{
+
+}
+ */
+/* .home__main__div--galaxy{
+
+} */
+
+/* .home__main__div--tv{
+
+} */
+
+/* .home__main__section--ofertas{
+
+} */
+
+/* .home__main__div--cafetera-off{
+
+} */
+
+/* .home__main__div--macbook-off{
+
+} */
+
+/* .home__main__div--galaxy-off{
+
+} */
+
+/* .home__main__div--tv-off{
+
+} */
+
+.home__footer{
+    text-align: center;
+    font-size: 24px;
+    font-family: var(--tipografiaGeneral);
+    color: var(--colorGrisOscuro);
+}
+
+/* .home__footer__div-pago{
+
+} */
+
+/* .home__footer__div-envio{
+
+} */
+
+/* .home__footer__div-garantia{
+
+}
+ */
+/* .home__footer__div-copyright{
+    
+} */
