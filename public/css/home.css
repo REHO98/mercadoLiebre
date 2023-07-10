@@ -10,11 +10,12 @@
 
 .home__header__input--search-bar{
     width: 80%;
+    font-size: var(--tamañoCuerposDeTexto);
 }
 
 
 .home__header__div--anuncio{
-    font-size: 24px;
+    font-size: var(--tamañoCuerposDeTexto);
     text-align: center;
     margin-top: 10px;
 }
@@ -33,12 +34,12 @@
 }
 
 .home__header__nav--nav-bar{
-    font-size: 12px;
+    font-size: var(--tamañoCuerposDeTexto);
     color: black;
 }
 
 .home__header__nav--login-bar{
-    font-size: 12px;
+    font-size: var(--tamañoCuerposDeTexto);
     color: black;
 }
 
@@ -46,10 +47,27 @@
 
 } */
 
-/* .home__main__section--ultima-visita{
-
+.home__main__section--ultima-visita{
+    font-size: var(--tamañoTitulares);
+    text-align: center;
 }
- */
+
+.home__header__div--precios{
+    font-size: var(--tamañoPrecios);
+    text-align: center;
+}
+
+.home__header__div--descuentos {
+    font-size: var(--tamañoDescuentos);
+    text-align: center;
+}
+
+.home__main__div--descripcion {
+    font-size: var(--tamañoDescripcion);
+    text-align: center;
+}
+
+
 /* .home__main__div--cafetera{
 
 } */
@@ -66,9 +84,10 @@
 
 } */
 
-/* .home__main__section--ofertas{
-
-} */
+.home__main__section--ofertas{
+    font-size: var(--tamañoTitulares);
+    text-align: center;
+} 
 
 /* .home__main__div--cafetera-off{
 
@@ -88,23 +107,31 @@
 
 .home__footer{
     text-align: center;
-    font-size: 24px;
     font-family: var(--tipografiaGeneral);
+}
+
+.home__footer__div--titulos{
+    font-size: var(--tamañoTitulares);
     color: var(--colorGrisOscuro);
 }
 
-/* .home__footer__div-pago{
-
-} */
-
-/* .home__footer__div-envio{
-
-} */
-
-/* .home__footer__div-garantia{
-
+.home__footer__div--descripcion{
+    font-size: var(--tamañoDescripcion);
+    color: var(--colorGrisOscuro);
 }
- */
-/* .home__footer__div-copyright{
+
+.home__footer__div-pago{
+    color: var(--colorAzul);
+}
+
+.home__footer__div-envio{
+    color: var(--colorAzul);
+}
+
+.home__footer__div-garantia{
+    color: var(--colorAzul);
+}
+
+ /*.home__footer__div-copyright{
     
 } */

@@ -6,4 +6,13 @@
     --colorGrisOscuro : #666;
     --colorGrisClaro : #ebebeb;
     --colorVerde : #39b54a;
+    --tamañoCuerposDeTexto: 12px;
+    --tamañoTitulares: 24px;
+    --tamañoPrecios: 18px;
+    --tamañoDescuentos: 16px;
+    --tamañoDescripciones: 16px;
+}
+
+body {
+    font-family: var(--tipografiaGeneral);
 }
