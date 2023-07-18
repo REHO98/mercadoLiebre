@@ -1,18 +1,6 @@
-:root {
-    --tipografiaGeneral : 'Roboto',sans-serif;
-    --colorAmarillo : #EAC926;
-    --colorAzul : #03264C;
-    --colorCeleste : #1259c3;
-    --colorGrisOscuro : #666;
-    --colorGrisClaro : #ebebeb;
-    --colorVerde : #39b54a;
-    --tamañoCuerposDeTexto: 12px;
-    --tamañoTitulares: 24px;
-    --tamañoPrecios: 18px;
-    --tamañoDescuentos: 16px;
-    --tamañoDescripciones: 16px;
-}
-
-body {
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: var(--tipografiaGeneral);
 }

@@ -1,0 +1,50 @@
+.home__footer {
+    text-align: center;
+    font-family: var(--tipografiaGeneral);
+}
+
+.home__footer__div--titulos {
+    font-size: var(--tamañoTitulares);
+    color: var(--colorGrisOscuro);
+}
+
+.home__footer__div--descripcion {
+    font-size: var(--tamañoDescripcion);
+    color: var(--colorGrisOscuro);
+}
+
+.home__footer__div-pago {
+    color: var(--colorAzul);
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.home__footer__div-envio {
+    color: var(--colorAzul);
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.home__footer__div-garantia {
+    color: var(--colorAzul);
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.home__footer__div-copyright {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+@media (min-width:361px) {
+
+}
+
+
+@media (min-width:769px) {
+
+}
