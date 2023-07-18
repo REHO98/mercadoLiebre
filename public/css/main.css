@@ -1,74 +1,86 @@
 .home__main {
-    width: 100%;
-    margin: 0 auto;
-    background-color: var(--colorGrisClaro);
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--colorGrisClaro);
 }
 
 .home__main__figure--img-home-banner {
-    width: 100%;
+  width: 100%;
 }
 
 .home__main__section--ultima-visita {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-.home__main__section--titulo-ultima-visita{
-    font-size: var(--tamañoTitulares);
-    color: var(--colorGrisOscuro);
+.home__main__section--titulo-ultima-visita {
+  font-size: var(--tamañoTitulares);
+  color: var(--colorGrisOscuro);
 }
 
 .home__main__article--product {
-    width: 90%;
-    margin: 0 auto;
-    padding: 15px;
-    /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
 }
 
 .home__main__article--product img {
-    width: 100%;
+  width: 100%;
 }
 
-.home__main__article--product i{
-    padding: 10px;
-    color: var(--colorVerde);
-    border-radius: 50%;
-    border: solid 1px;
+.home__main__article--product i {
+  padding: 10px;
+  color: var(--colorVerde);
+  border-radius: 50%;
+  border: solid 1px;
 }
 
-.home__main__article--product-descripcion{
+.home__main__article--product-descripcion {
     border-top: 1px solid #ebebeb;
     background-color: white;
 }
 
 .home__main__article--precios {
-    font-size: var(--tamañoPrecios);
+  font-size: var(--tamañoPrecios);
 }
 
 .home__main__article--descuentos {
-    font-size: var(--tamañoDescuentos);
-    color: var(--colorVerde);
+  font-size: var(--tamañoDescuentos);
+  color: var(--colorVerde);
 }
 
-.home__main__article--descripcion {
-    font-size: var(--tamañoDescripcion);
+.home__main__article--product-descripcion h3 {
+  display: none;
 }
 
 .home__main__div--product img {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .home__main__div--product i {
-    color: var(--colorVerde);
-    border-radius: 15%;
+  color: var(--colorVerde);
+  border-radius: 15%;
 }
 
 .home__main__section--ofertas {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-@media (min-width:361px) {}
+@media (min-width: 768px) {
+  .home__main__article--product {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
 
+  .home__main__article--product-descripcion h3 {
+    font-size: var(--tamañoDescripcion);
+    display: block;
+  }
+}
 
-@media (min-width:769px) {}
+@media (min-width: 1080px) {
+}

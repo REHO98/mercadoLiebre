@@ -1,63 +1,83 @@
 .home__header {
-    background-color: var(--colorAmarillo);
-    width: 100%;
-    padding: 25px 0;
-    font-family: var(--tipografiaGeneral);
+  background-color: var(--colorAmarillo);
+  width: 100%;
+  padding: 25px 0;
+  font-family: var(--tipografiaGeneral);
 }
 
 .home__header__img--logo {
-    width: 50%;
-    margin-left: 15px;
+  width: 50%;
+  margin-left: 15px;
 }
 
-.home__header_form--barra{
-    width: 100%;
+.home__header_form--barra {
+  width: 100%;
 }
 .home__header__input--search-bar {
-    width: 60%;
-    margin-left: 5%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  width: 60%;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.home__header--logo-search{
-    display: inline-block;
+.home__header--logo-search {
+  display: inline-block;
 }
 
+.home__header__p--anuncio {
+  font-size: var(--tamañoCuerposDeTexto);
+  text-align: center;
+  margin: 5px;
+  padding: 10px 0px;
+}
 
-.home__p__div--anuncio {
+.home__header__div--burger-menu {
+  background-color: var(--colorCeleste);
+  color: #ffff;
+  display: block;
+  max-width: 50px;
+  padding: 15px 0px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.home__header__ul--nav-bar {
+  display: none;
+}
+
+.home__header__ul--login-bar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+    
+    .home__header__p--anuncio {
     font-size: var(--tamañoCuerposDeTexto);
     text-align: center;
     margin: 5px;
     padding: 10px 0px;
-}
+  }
 
-.home__header__div--burger-menu {
-    background-color: var(--colorCeleste);
-    color: #ffff;
+  .home__header__div--burger-menu {
+    display: none;
+  }
+  
+  .home__header__ul--nav-bar{
+    font-size: var(--tamañoCuerposDeTexto);
+    color: black;
     display: block;
-    max-width: 50px;
-    padding: 15px 0px;
-    border-radius: 8px;
-    text-align: center;
-    font-size: 1rem;
-    margin: auto;
-    margin-top: 25px;
-}
+  }
 
-.home__header__nav--nav-bar {
+  .home__header__ul--login-bar{
     font-size: var(--tamañoCuerposDeTexto);
     color: black;
-    display: none;
+    display: block;
+  }
 }
 
-.home__header__nav--login-bar {
-    font-size: var(--tamañoCuerposDeTexto);
-    color: black;
-    display: none;
+
+@media (min-width: 1080px) {
 }
-
-@media (min-width:361px) {}
-
-
-@media (min-width:769px) {}
