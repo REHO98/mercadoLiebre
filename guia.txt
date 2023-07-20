@@ -41,3 +41,22 @@ Implementamos una estrategia ​mobilefirstpensando que los usuarios utilizarán
 principalmente, dispositivos móviles para acceder a la aplicación.
 En los próximos encuentros seguiremos aprendiendo conceptos más avanzados. 
 ¡Hasta la próxima! 
+
+display: ​block​; 
+font-size: ​16​px​; 
+padding: ​5​px​; 
+width: ​30​px​; 
+height: ​30​px​; 
+border: ​1​px​ ​solid​ ​#39b54a​; 
+background-color: ​#FFF​; 
+border-radius: ​50​%​; 
+position: ​absolute​; 
+right: ​20​px​; 
+top: ​-15​px​;
+
+Encabezado: nos piden que la primera parte del encabezado quede de la siguiente                         
+manera:
+
+Logo: tiene que medir el 50% de su contenedor. 
+Barra de búsqueda: tiene que medir el 50% de su contenedor
+

@@ -5,23 +5,33 @@
   font-family: var(--tipografiaGeneral);
 }
 
+.home__header_div-logo-barra {
+  display: flex;
+  justify-content: space-between;
+}
+
 .home__header__img--logo {
   width: 50%;
   margin-left: 15px;
 }
 
 .home__header_form--barra {
-  width: 100%;
+  width: 50%;
 }
 .home__header__input--search-bar {
-  width: 60%;
-  margin-left: 5%;
+  width: 96%;
+  margin-left: 0;
   margin-top: 15px;
-  margin-bottom: 15px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
 }
 
 .home__header--logo-search {
-  display: inline-block;
+  margin-left: -18px;
+  border: none;
+  background-color: white;
+  color: var(--colorGrisOscuro);
 }
 
 .home__header__p--anuncio {
@@ -44,6 +54,10 @@
   margin-top: 25px;
 }
 
+ .home__header_nav {
+      display: none;
+  }
+
 .home__header__ul--nav-bar {
   display: none;
 }
@@ -54,30 +68,58 @@
 
 @media (min-width: 768px) {
     
-    .home__header__p--anuncio {
-    font-size: var(--tamañoCuerposDeTexto);
-    text-align: center;
-    margin: 5px;
-    padding: 10px 0px;
+/* ENCABEZADO */
+
+  .home__header_section-encabezado {
+    display: flex;
+    justify-content:center;
   }
+
+  .home__header__img--logo img{
+    width: 100%;
+}
+
+.home__header_form--barra {
+    margin-left: 20px;
+}
+
+  .home__header__p--anuncio {
+    font-size: var(--tamañoCuerposDeTexto);
+    margin-right: 20px;
+}
 
   .home__header__div--burger-menu {
     display: none;
   }
+
+  /* NAVEGACION */
+
+  .home__header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
   
+  .home__header__ul--nav-bar li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
+  .home__header__ul--login-bar li{
+    display: inline-block;
+    padding: 0px 10px;
+  }
+
   .home__header__ul--nav-bar{
-    font-size: var(--tamañoCuerposDeTexto);
-    color: black;
-    display: block;
+    display: inline-block;
+
   }
 
   .home__header__ul--login-bar{
-    font-size: var(--tamañoCuerposDeTexto);
-    color: black;
-    display: block;
+    display: inline-block;
+
   }
 }
-
 
 @media (min-width: 1080px) {
 }
