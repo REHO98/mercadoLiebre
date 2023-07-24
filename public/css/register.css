@@ -1,0 +1,73 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Ajustar la altura del contenedor a toda la altura visible de la ventana */
+  background-color: var(--colorGrisClaro);
+}
+
+/* formulario de registro */
+.register__form {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* título del formulario */
+.register__form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* las etiquetas */
+.register__form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* campos de entrada - área de texto */
+.register__form input[type="text"],
+.register__form input[type="password"],
+.register__form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* campos de radio */
+.register__form input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* sección de categorías */
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* checkboxes - etiquetas de categorías */
+.categories-container input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* botones */
+.register__form button {
+  padding: 10px 20px;
+  background-color: var(--colorCeleste);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1024px){
+  
+}

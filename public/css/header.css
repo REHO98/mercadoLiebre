@@ -8,11 +8,12 @@
 .home__header_div-logo-barra {
   display: flex;
   justify-content: space-between;
+  /* margin: 0 2rem; */
 }
 
 .home__header__img--logo {
   width: 50%;
-  margin-left: 15px;
+  /* margin-left: 15px; */
 }
 
 .home__header_form--barra {
@@ -54,9 +55,9 @@
   margin-top: 25px;
 }
 
- .home__header_nav {
-      display: none;
-  }
+.home__header_nav {
+  display: none;
+}
 
 .home__header__ul--nav-bar {
   display: none;
@@ -67,26 +68,25 @@
 }
 
 @media (min-width: 768px) {
-    
-/* ENCABEZADO */
+  /* ENCABEZADO */
 
   .home__header_section-encabezado {
     display: flex;
-    justify-content:center;
+    justify-content: center;
   }
 
-  .home__header__img--logo img{
+  .home__header__img--logo img {
     width: 100%;
-}
+  }
 
-.home__header_form--barra {
+  .home__header_form--barra {
     margin-left: 20px;
-}
+  }
 
   .home__header__p--anuncio {
     font-size: var(--tamañoCuerposDeTexto);
     margin-right: 20px;
-}
+  }
 
   .home__header__div--burger-menu {
     display: none;
@@ -99,27 +99,77 @@
     justify-content: space-between;
     margin-top: 20px;
   }
-  
-  .home__header__ul--nav-bar li{
+
+  .home__header__ul--nav-bar li {
     display: inline-block;
     padding: 0px 10px;
   }
 
-  .home__header__ul--login-bar li{
+  .home__header__ul--login-bar li {
     display: inline-block;
     padding: 0px 10px;
   }
 
-  .home__header__ul--nav-bar{
+  .home__header__ul--nav-bar {
     display: inline-block;
-
   }
 
-  .home__header__ul--login-bar{
+  .home__header__ul--login-bar {
     display: inline-block;
-
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1024px) {
+
+  /* ENCABEZADO */
+
+  .home__header_section-encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home__header__img--logo img {
+    width: 100%;
+    transform: scale(1.1);
+  }
+
+  .home__header_form--barra {
+    margin-left: 150px;
+  }
+
+  .home__header__p--anuncio {
+    font-size: var(--tamañoCuerposDeTexto);
+    margin-right: 20px;
+  }
+
+  .home__header__div--burger-menu {
+    display: none;
+  }
+
+  /* NAVEGACION */
+
+  .home__header__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .home__header__ul--nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .home__header__ul--login-bar li {
+    display: inline-block;
+    padding: 0px 30px;
+  }
+
+  .home__header__ul--nav-bar {
+    display: inline-block;
+  }
+
+  .home__header__ul--login-bar {
+    display: inline-block;
+  }
 }

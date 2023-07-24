@@ -1,0 +1,51 @@
+.login {
+  width: 100%;
+  background-color: var(--colorGrisClaro);
+}
+
+/*formulario de login */
+.login__form {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* título del formulario de login */
+.login__form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*etiquetas del formulario de login */
+.login__form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*los campos de entrada - área de texto del formulario de login */
+.login__form input[type="text"],
+.login__form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*botones del formulario de login */
+.login__form button {
+  padding: 10px 20px;
+  background-color: var(--colorCeleste);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1024px){
+    
+}
