@@ -1,12 +1,14 @@
 .login {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   background-color: var(--colorGrisClaro);
 }
 
 /*formulario de login */
 .login__form {
   padding: 20px;
-  border-radius: 8px;
+  background-color: var(--colorGrisClaro);
 }
 
 /* título del formulario de login */
@@ -42,10 +44,14 @@
   border-radius: 5px;
 }
 
-@media (min-width: 768px){
-
+@media (min-width: 768px) {
+  .login__form-username-password {
+    padding: 20px 8rem;
+  }
 }
 
-@media (min-width: 1024px){
-    
+@media (min-width: 1024px) {
+  .login__form-username-password {
+    padding: 20px 8rem;
+  }
 }

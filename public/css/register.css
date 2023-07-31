@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-   /* Ajustar la altura del contenedor a toda la altura visible de la ventana */
   background-color: var(--colorGrisClaro);
+}
+
+.register_section{
+  margin: 10px;
 }
 
 /* formulario de registro */
 .register__form {
   padding: 20px;
-  border-radius: 8px;
 }
 
 /* título del formulario */
@@ -61,13 +63,4 @@
   cursor: pointer;
   margin-top: 10px;
   border-radius: 5px;
-}
-
-
-@media (min-width: 768px){
-
-}
-
-@media (min-width: 1024px){
-  
 }
