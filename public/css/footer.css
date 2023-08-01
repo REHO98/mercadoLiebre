@@ -1,52 +1,39 @@
 .home__footer {
-    text-align: center;
-    font-family: var(--tipografiaGeneral);
+  font-family: var(--tipografiaGeneral);
 }
 
 .home__footer__div--titulos {
-    font-size: var(--tamañoTitulares);
-    color: var(--colorGrisOscuro);
+  font-size: var(--tamañoTitulares);
+  color: var(--colorGrisOscuro);
 }
 
 .home__footer__div--descripcion {
-    font-size: var(--tamañoDescripcion);
-    color: var(--colorGrisOscuro);
+  font-size: var(--tamañoDescripcion);
+  color: var(--colorGrisOscuro);
 }
 
-.home__footer__div-pago {
-    color: var(--colorAzul);
-    width: 100%;
-    max-width: 300px;
-    margin: 10px;
+.home__footer__div {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
 }
 
-.home__footer__div-envio {
-    color: var(--colorAzul);
-    width: 100%;
-    max-width: 300px;
-    margin: 10px;
+.home__footer__div i {
+  font-size: 30px;
+  color: var(--colorCeleste);
 }
 
-.home__footer__div-garantia {
-    color: var(--colorAzul);
-    width: 100%;
-    max-width: 300px;
-    margin: 10px;
+@media (min-width: 768px) {
 }
 
-.home__footer__div-copyright {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px;
+@media (min-width: 1080px) {
+  .home__footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home__footer__div {
+    width: 30%;
+  }
 }
-
-@media (min-width:768px) {
-    .home__footer{
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-
-
-@media (min-width:1080px) {}
