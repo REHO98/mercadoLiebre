@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('partials/head') %>
+
+    <body>
+        <%- include('partials/header') %>
+
+            <main class="login__form">
+                <h1>Login de Usuario</h1>
+                <form class="login__form-username-password" id="loginForm">
+                    <label for="username">Nombre de usuari@</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </main>
+            <%- include('partials/footer') %>
+
+    </body>
+
+</html>
